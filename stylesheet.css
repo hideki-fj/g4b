@@ -31,18 +31,6 @@ header {
   align-items: center;
 }
 
-/*
-.header-logo{
-  height:100%;
-  padding: 0 14px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-}
-*/
-
 .header-logo {
   width: 91.42px;
   height: auto;

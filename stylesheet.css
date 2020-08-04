@@ -51,12 +51,8 @@ header {
   font-weight: 500;
 }
 
-.nav_links li a{
-  transition: all 0.3s ease 0s;
-}
-
-.nav links li a: hover{
-  background-color: #0088a9;
+.nav_links li a:visited{
+  color: #0C6993;
 }
 
 button{

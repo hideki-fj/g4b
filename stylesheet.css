@@ -218,6 +218,19 @@ button: hover{
   object-fit: cover;
 }
 
+.clients{
+  display: block;
+  text-align: center;
+  align-items: center;
+}
+
+.clients p{
+  font-size: 28px;
+}
+
+.clients img{
+  width: 80%;
+}
 
 .pipedriveWebForms{
   margin-top: 14px;

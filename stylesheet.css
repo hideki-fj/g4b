@@ -123,6 +123,8 @@ button{
 .product-list{
   text-align: center;
   font-size: 28px;
+  color: #0C6993;
+  font-weight: 700;
   padding: 0 auto;
   margin: 0 auto;
 }
@@ -222,6 +224,8 @@ button{
 
 .clients p{
   font-size: 28px;
+  color: #0C6993;
+  font-weight: 700;
 }
 
 .clients img{

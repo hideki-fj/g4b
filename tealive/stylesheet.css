@@ -189,9 +189,6 @@ h3{
   text-align: left;
 }
 
-.product{
-  padding-bottom: 2.5%;
-}
 
 .product-info1 {
   display: flex;
@@ -274,6 +271,21 @@ h3{
   height: 40%;
   padding: 0 10%;
   margin-top: 5%;
+}
+
+
+.movie{
+}
+
+.movie iframe{
+  display: block;
+  max-width: 853.333px;
+  max-height: 480px;
+  width: 80vw;
+  height: calc(80vw * 0.5625);
+  margin: 0 auto;
+  margin-bottom: 30px;
+
 }
 
 .delivery{

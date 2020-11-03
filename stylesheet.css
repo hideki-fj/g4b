@@ -129,6 +129,15 @@ button{
   margin: 0 auto;
 }
 
+.product-detail{
+  color: #393939;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: center;
+  padding: 16px 16px;
+  margin: 0 auto;
+}
+
 .product-info1 {
   display: flex;
   flex-direction: row;
@@ -222,10 +231,22 @@ button{
   align-items: center;
 }
 
-.clients p{
+.clients-text{
   font-size: 28px;
   color: #0C6993;
   font-weight: 700;
+  padding: 0 auto;
+  margin: 0 auto;
+
+}
+
+.clients-detail{
+  color: #393939;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: center;
+  padding: 16px 16px;
+  margin: 0 auto;
 }
 
 .clients img{

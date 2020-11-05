@@ -66,6 +66,10 @@ button{
   font-size: 20px;
 }
 
+button: hover{
+  background-color: #0088a9;
+}
+
 .benefit{
   height: 480px;
   margin-top: 80px;
@@ -359,34 +363,50 @@ footer {
   background-color: #0C6993;
 }
 
+footer a{
+  color: white;
+}
+
 .company {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-end;
   vertical-align: middle;
+  padding-top: 40px;
 }
 
 .company-info{
-  padding-top: 30px;
+  margin-right: auto;
 }
 
 .company-info img {
   width: 91.42px;
 }
 
-.company-info p{
+.company p{
   text-align: left;
-  font-size: 14px;
+  font-size: 18px;
   color: white;
-  line-height: 10px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 200;
 }
 
+.main{
+  padding: 0 30px;
+  margin-right: 24px;
+}
+.menu{
+  padding: 0 30px;
+  margin-right: 24px;
+}
+
+.sub-menu{
+  padding: 0 30px;
+}
 
 .bottom p {
   position: absolute;
   bottom: 0;
-  padding: 0 0 14px 14px;
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);

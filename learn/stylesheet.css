@@ -39,7 +39,11 @@ header {
 
 .nav_links{
   align-items: flex-end;
-  padding: 0 30px;
+  padding: 0 0;
+}
+
+.nav_links a{
+  color: #0C6993;
 }
 
 .nav_links li{
@@ -56,14 +60,28 @@ header {
 }
 
 button{
-  padding: 8px 40px;
+  padding: 8px 50px;
   color: white;
   font-weight: 500;
   border-radius: 4px;
   background-color: #0C6993;
   cursor: pointer;
   border: none;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.dnl button{
+  padding: 7px 40px;
+  color: #0C6993;
+  font-weight: 500;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #0C6993;
+  border-width: 1px;
+  font-size: 18px;
+  margin: 0 16px;
 }
 
 button: hover{

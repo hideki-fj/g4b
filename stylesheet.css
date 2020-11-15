@@ -37,6 +37,10 @@ header {
   margin-right: auto;
 }
 
+ul.nav_links{
+  padding-inline-start: 0px;
+}
+
 .nav_links{
   text-align: center;
   margin: 0 0;
